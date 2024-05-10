@@ -7,12 +7,6 @@ const int MAXN = 1e6 + 5;
 int l;
 int a[MAXN];
 
-void swap(int &x, int &y) {
-    int tmp = x;
-    x = y;
-    y = tmp;
-}
-
 int merge(int arr[], int l, int m, int r) {
     int aux[r - l + 1];
     for(int i = l; i <= r; i ++)
